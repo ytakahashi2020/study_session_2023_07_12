@@ -8,7 +8,7 @@ contract Storage {
 }
 
 contract StorageCaller {
-    address private storageContract;
+    address public storageContract;
 
     constructor(address _storageContractAddress) {
         storageContract = _storageContractAddress;
